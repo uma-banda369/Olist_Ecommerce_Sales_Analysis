@@ -1,3 +1,11 @@
+#5 imp KPIs
+1.Weekday vs Weekend(order_purchase_timestamp) Payment Statistics
+2.No.of orders with a review score of 5 and payment type as a credit card
+3.Average no.of days taken for order_delivered_customer_date for pet_shop
+4.Average price and payment values from customers of Sao Paulo City
+5.Relationship between shipping days(order_delivered_customer_date-order_purchase_timestamp) vs review scores.
+
+#other 
 1. How many orders did Olist receive?
 2. How much revenue was generated?
 3. How many customers purchased?

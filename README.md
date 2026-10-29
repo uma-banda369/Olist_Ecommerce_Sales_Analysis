@@ -12,10 +12,10 @@ further investigation.
 
 # Business Questions
 
-1.Weekday vs Weekend(order_purchase_timestamp) Payment Statistics
-2.No.of orders with a review score of 5 and payment type as a credit card
+1.Weekday vs Weekend(order_purchase_timestamp) Payment Statistics.
+2.No.of orders with a review score of 5 and payment type as a credit card.
 3.Average no.of days taken for order_delivered_customer_date for pet_shop
-4.Average price and payment values from customers of Sao Paulo City
+4.Average price and payment values from customers of Sao Paulo City.
 5.Relationship between shipping days(order_delivered_customer_date-order_purchase_timestamp) vs review scores.
 -   How do sales and order volumes change over time?
 -   Which states and cities contribute the most to sales?
@@ -45,26 +45,18 @@ geolocation.
 Dataset source: [Brazilian E-Commerce Public Dataset by Olist on
 Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
-Please follow the dataset's terms and attribution requirements when
-sharing or redistributing data. This repository can contain the report,
-screenshots, documentation, and analysis code without necessarily
-uploading the full raw dataset.
+# Data Preparation and Modeling
 
-## Data Preparation and Modeling
+1. Imported the relevant CSV files into Power BI.
+2. Checked data types, missing values, duplicates, and key fields.
+3. Reviewed order statuses and decided how cancelled or unavailable orders should be
+treated.
+4. Built relationships between the relevant tables and checked
+relationship cardinality.
+5. Created measures, custom columns at the appropriate level of detail to avoid double-counting orders or sales.
+6. Validated totals and filters against the underlying data.
 
-Document the steps you actually completed. A typical workflow
-includes: 1. Imported the relevant CSV files into Power BI. 2. Checked
-data types, missing values, duplicates, and key fields. 3. Reviewed
-order statuses and decided how cancelled or unavailable orders should be
-treated. 4. Built relationships between the relevant tables and checked
-relationship cardinality. 5. Created measures at the appropriate level
-of detail to avoid double-counting orders or sales. 6. Validated totals
-and filters against the underlying data.
-
-**Model notes:** \[Describe your actual model and any cleaning decisions
-here.\]
-
-## KPIs
+# KPIs
 
 The dashboard currently includes or is being developed around the
 following measures:
@@ -109,8 +101,7 @@ following measures:
   -----------------------------------------------------------------------
 
 ## Dashboard Pages and Visuals
-
-Update this section to match the final report.
+<img width="1318" height="727" alt="Screenshot 2026-10-28 123240" src="https://github.com/user-attachments/assets/8f945081-6d3b-43cd-9c44-20be5019a005" />
 
 ### Executive Overview
 
@@ -133,9 +124,6 @@ Update this section to match the final report.
 -   Delivery time versus review-score analysis
 
 ## Key Findings
-
-Add three to five findings only after validating them in Power BI. Use
-the structure below.
 
 1.  **Sales trend:** \[State the period and direction of the trend,
     supported by a value or comparison.\]
@@ -184,15 +172,11 @@ stronger evidence.
 
 ## Repository Structure
 
-``` text
 olist-ecommerce-sales-analysis/
 ├── README.md
 ├── Olist_Sales_Analysis.pbix
 └── images/
     └── olist-dashboard.png
-```
-
-Adjust these filenames and folders to match what you actually upload.
 
 ## What I Learned
 
@@ -205,6 +189,6 @@ Adjust these filenames and folders to match what you actually upload.
 
 ## Author
 
-**\[Your Name\]**\
-Aspiring Data Analyst \| Power BI \| SQL \| Excel\
-LinkedIn: \[Add your LinkedIn profile URL\]
+**Uma Banda**
+Data Analyst | Power BI | SQL | Excel
+LinkedIn: https://www.linkedin.com/in/umabanda369/
